@@ -40,7 +40,7 @@ class Company {
     public void printEmplsList() {
         for (Employee employee : employees) {
             System.out.println("ID: " + employee.getId() + ", Name: " + employee.getfName() + " " + employee.getlName() +
-                    ", Salary: " + employee.salaryCalc());
+                    ", Salary: " + employee.salaryCalc() + " " + employee.getClass().getSimpleName());
         }
     }
 
